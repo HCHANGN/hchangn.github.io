@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168381784-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168381784-1');
+    </script>
+    <!--  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="thankyou.css">
+    <title>Stylish</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="headerAnkor"><img src="img/btn-logo-01.svg" class="btn_logo01"></a>
+        <div class="menu">
+            <a class="menuItem" id="womenButton" href="index.html?id=woman">女裝</a>
+            <span>|</span>
+            <a class="menuItem" id="menButton" href="index.html?id=men">男裝</a>
+            <span>|</span>
+            <a class="menuItem" id="assButton" href="index.html?id=ass">配件</a>
+        </div>
+
+        <div id="headerInput">
+            <input type="text" class='web_searchbar' id="searchInput">
+            <img src="img/search.png" id="searchIcon"> 
+        </div>
+        <!-- svg -->
+        <a href="./cart.html">
+            <div class="btn_shopping-cart01_add"><div id="cartTotalNum">0</div></div>
+        </a>
+        <!-- svg -->
+        <img src="img/btn-member-01-normal.svg"
+            class="btn_member01_normal" id="memberImg">
+
+        <img src="img/search.png" id="mobileSearchIcon">
+        <input type="text" id="mobileSearch" placeholder="Search Here!">
+    </header>
+    <div id="mainContent"></div>
+    <div id="blank">
+        <div class="menu">
+            <a class="menuItem" id="womenButton2" href="index.html?id=woman">女裝</a>
+            <span>|</span>
+            <a class="menuItem" id="menButton2" href="index.html?id=men">男裝</a>
+            <span>|</span>
+            <a class="menuItem" id="assButton2" href="index.html?id=ass">配件</a>
+        </div>
+    </div>
+    <div id="ThankyouMainContent">
+        <div id="ThankyouMainText">
+            <div id="deliverAnimate">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="150" width="150">
+                    <g>
+                     <title>Layer 1</title>
+                     <path fill="#3f3a3a" id="svg_2" d="m256.1,424.2c44.9,0 87.1,-17.5 118.9,-49.3c29.5,-29.5 46.9,-68.7 49,-110.4c0.2,-4.1 -3,-7.7 -7.1,-7.9c-4.1,-0.2 -7.7,3 -7.9,7.1c-1.9,37.9 -17.8,73.6 -44.7,100.5c-28.9,28.9 -67.4,44.9 -108.3,44.9s-79.4,-15.9 -108.3,-44.9c-59.7,-59.7 -59.7,-156.9 0,-216.6c50.9,-50.9 130.1,-59.4 190.3,-21.1l-16.9,20.7l48.5,-4.9l-4.9,-48.5l-17.1,21c-66.3,-43.2 -154.2,-34.1 -210.5,22.2c-65.6,65.6 -65.6,172.2 0,237.8c31.9,31.9 74.1,49.4 119,49.4z"/>
+                     <path fill="#dd901c" id="svg_3" d="m335.4,221.4c0,-0.1 0,-0.2 -0.1,-0.2c0,-0.2 -0.1,-0.3 -0.1,-0.5c0,-0.1 -0.1,-0.3 -0.1,-0.4c0,-0.1 -0.1,-0.2 -0.1,-0.3c-0.2,-0.5 -0.4,-0.9 -0.7,-1.3c0,0 0,0 0,0l-31.8,-46.7c-1.4,-2.1 -3.7,-3.3 -6.2,-3.3l-80.6,0c-2.5,0 -4.8,1.2 -6.2,3.3l-31.8,46.6c0,0 0,0 0,0c-0.3,0.4 -0.5,0.9 -0.7,1.3c0,0.1 -0.1,0.2 -0.1,0.3c-0.1,0.1 -0.1,0.3 -0.1,0.4c0,0.2 -0.1,0.3 -0.1,0.5c0,0.1 0,0.2 -0.1,0.2c-0.1,0.5 -0.2,1 -0.2,1.5c0,0 0,0 0,0l0,112.9c0,4.1 3.4,7.5 7.5,7.5l144.1,0c4.1,0 7.5,-3.4 7.5,-7.5l0,-112.8c0,0 0,0 0,0c0,-0.6 0,-1.1 -0.1,-1.5zm-115.7,-37.7l72.6,0l21.5,31.6l-115.7,0l21.6,-31.6zm100.8,144.6l-129,0l0,-97.9l129.1,0l0,97.9l-0.1,0z"/>
+                    </g>
+                </svg>
+            </div>
+            <h1>Thank you for purchasing!</h1>
+            <br>
+            <div id="ThankyouPurchaseTitleDiv">
+                <p>Your purchased items&#160;<div id="ThankyouItemNum">0</div>&#160;will deliver to you soon!</p>
+            </div>
+            <br>
+            <p>Purchase Id : <div id="ThankyouPurchaseId">0</div></p>
+            <br>
+            <div id="ThankyouCountDownDiv">
+                <p>Back to Home Page in ..... <div id="ThankyouCountDown"></div>&#160;seconds</p>
+            </div>
+            <a href="./index.html">Back to Home page now</a>
+        </div>
+    </div>
+
+    <div id="stickMenu">
+        <div id="mobileCart">
+            <div id="mobileCartImg" onclick="window.location='./cart.html';"><div id="mobileCartTotalNum">0</div></div>
+            <!-- <img src="img/cart-mobile.png"> -->
+            <a>購物車</a>
+        </div>
+        <span>|</span>
+        <div id="mobileMember">
+            <img src="img/btn-member-02-normal.svg" id="mobileMemberImg">
+            <a>會員</a>
+        </div>
+    </div>
+    <footer>
+            <div id="footerMenu">
+                <span id="col1">
+                    <a id='about' class="footerMenuItem">關於Stylish</a>
+                    <span>|</span>
+                    <a class="footerMenuItem">服務條款</a>
+                    <span>|</span>
+                    <a class="footerMenuItem">隱私政策</a>
+                    <span>|</span>
+                </span>
+                <span id="col2">
+                    <a class="footerMenuItem">聯絡我們</a>
+                    <span>|</span>
+                    <a class="footerMenuItem">FAQ</a>
+                </span>
+                <span id="mobileCol1">
+                    <ul>
+                        <li><a id='about' class="footerMenuItem">關於Stylish</a></li>
+                        <li><a class="footerMenuItem">服務條款</a></li>
+                        <li><a class="footerMenuItem">隱私政策</a></li>
+                    </ul>      
+                </span>
+                <span id="mobileCol2">
+                    <ul>
+                        <li><a class="footerMenuItem">聯絡我們</a></li>
+                        <li><a class="footerMenuItem">FAQ</a></li>
+                    </ul>                    
+                </span>
+            </div>
+            <div id="socialMedia">
+                <img src="img/line.png">
+                <img src="img/twitter.png">
+                <img src="img/facebook.png">
+            </div>
+            <span id="copyRight">
+                &copy; 2018 All rights reserved
+            </span>
+    </footer>
+
+
+    <script src="setTotal.js"></script>
+    <script src="thankyou.js"></script>
+    <script src="facebookLogin.js"></script>
+
+</body>
+</html>

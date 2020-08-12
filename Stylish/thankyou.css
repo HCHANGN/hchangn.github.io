@@ -1,0 +1,84 @@
+#ThankyouMainContent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:50rem;
+    margin:0;
+    background-image: url(./img/photo-1588421358255-15197479b11a.jpg);
+}
+
+#ThankyouMainText{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:40%;
+    height:30rem;
+    border-radius: 0.5rem;
+    background-color:white;
+    color:#3F3A3A;
+}
+
+#deliverAnimate{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes hideShow{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes rotateCircle{
+    0%{transform:rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+
+#svg_2{
+    animation: rotateCircle 5s ease infinite;
+    transform-origin: 50% 50%;
+}
+
+
+#svg_3{
+    animation: hideShow 5s ease infinite;
+}
+
+
+#ThankyouPurchaseTitleDiv{
+    display: flex;
+}
+
+#ThankyouCountDownDiv{
+    display:flex;
+    align-items: center;
+}
+
+#ThankyouPurchaseId{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width:15rem;
+    border-radius: 0.2rem;
+    background-color: lightgray;
+}
+
+footer{
+    margin-top: 0;
+}
+
+@media (max-width:950px){
+    #ThankyouMainText{
+        width:70%;
+    }
+}
+
+@media (max-width:660px){
+    #ThankyouMainText{
+        width:90%;
+    }
+}

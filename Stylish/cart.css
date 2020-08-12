@@ -1,0 +1,474 @@
+#mainCartContent{
+    width:80%;
+    margin:auto;
+}
+
+#topCartTitle{
+    display:flex;
+    justify-content: flex-start;
+    width:90%;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#CartItemCar{
+    display:flex;
+    width:45%;
+    font-size: 1.2rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+}
+
+#CartItemCarNum{
+    width:20%;
+    font-size: 1.2rem;
+}
+
+#CartItemCarSiglePrice{
+    width:18%;
+    font-size: 1.2rem;
+}
+
+#CartItemCarTotalPrice{
+    width:15%;
+    font-size: 1.2rem;
+}
+
+#cartShoppingList{
+    display:flex;
+    border:2px solid gray;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cartShoppingListAppendItem{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.cartShoppingListLeft{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:50%;
+}
+
+.cartShoppingListImg{
+    width:40%;
+}
+
+.mainCartItem{
+    width:40%;
+    padding-left: 1rem;
+}
+
+.cartShoppingListProductInfo{
+    display:flex;
+    flex-direction: column;
+}
+
+.cartShoppingListColor{
+    display:flex;
+}
+
+.cartShoppingListSize{
+    display:flex;
+}
+
+.cartItemNumber{
+    display:flex;
+    align-items: center;
+    width:15%;
+}
+
+.CartItemCarNumMobile{
+    display:none;
+}
+
+.CartItemCarSiglePriceMobile{
+    display:none;
+}
+
+.CartItemCarTotalPriceMobile{
+    display:none;
+}
+
+.cartItemNumberValue{
+    height:1rem;
+    width:60%;
+    border-radius: 0.3rem;
+    height:1.5rem;
+}
+
+.cartItemSinglePrice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+}
+
+.cartItemTotalPrice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+}
+
+.cartItemDelete{
+    display: flex;
+    align-items: center;
+}
+
+#sendAndBillInfo{
+    background-color: darkgray;
+    display:flex;
+    align-items: center;
+    height:5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+#sendCountry{
+    display: flex;
+    align-items: center;
+}
+
+#sendCountryValue{
+    border-radius: 0.3rem;
+    height:2rem;
+}
+
+#billMethod{
+    display: flex;
+    align-items: center;
+}
+
+#sendCountryTitle,#billMethodTitle,#billMethodValueDiv,#sendCountryValueDiv{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#billMethodValue{
+    border-radius: 0.3rem;
+    padding:auto;
+    height:2rem;
+}
+
+
+#reminderInfo{
+    margin-bottom: 3rem;
+}
+
+#orderPersonInfoTitle{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#orderPersonInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border-bottom: dimgrey 2px solid; */
+    border-top: dimgrey 2px solid;
+    height:20rem;
+}
+
+#orderPersonInfoName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:60%;
+}
+
+#orderPersonInfoNameValue{
+    width:75%;
+    border-radius: 0.3rem;
+    height:1.5rem;
+    border: 1px solid gray;
+}
+
+#orderPersonInfoNameWarning{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color:orange;
+    width:60%;
+}
+
+#orderPersonInfoPhone{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:60%;
+    
+}
+
+
+#orderPersonInfoPhoneValue{
+    width: 75%;
+    border-radius: 0.3rem;
+    height:1.5rem;
+    border: 1px solid gray;
+}
+
+#orderPersonInfoAddress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:60%;
+}
+
+#orderPersonInfoAddressValue{
+    width:75%;
+    border-radius: 0.3rem;
+    height:1.5rem;
+    border: 1px solid gray;
+}
+
+#deliveryTime{
+    display:flex;
+    justify-content: space-between;
+    width:60%;
+}
+
+#orderResult{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#orderResultPanel{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30%;
+    height:12rem;
+}
+
+#finialResultItemsPrice{
+    display:flex;
+    justify-content: space-between;
+}
+
+#finialResultDeliveryPrice{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: gray 1px solid;
+}
+
+#finialResultPrice{
+    display:flex;
+    justify-content: space-between;
+}
+
+#finialCheckButton{
+    width:100%;
+}
+
+/* tapPay Style */
+.tpfield {
+    height: 1.5rem;
+    width: 50%;
+    border: 1px solid gray;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 0.3rem;
+}
+
+#paymentTitle{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#tapPayPanel{
+    /* border-bottom: dimgrey 2px solid; */
+    border-top: dimgrey 2px solid;
+    display: flex;
+    height:20rem;
+    width:100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/*  */
+
+@media (max-width:700px){
+
+    #mainCartContent{
+        width:90%;
+        margin:auto;
+    }
+
+    /* #sideTitle{
+        display: none;
+    } */
+
+    #CartItemCarNum{
+        display:none;
+    }
+
+    #CartItemCarSiglePrice{
+        display:none;
+    }
+
+    #CartItemCarTotalPrice{
+        display:none;
+    }
+
+    #cartShoppingList{
+        border:0;
+        border-top: 2px solid gray;
+    }
+
+    .cartShoppingListAppendItem{
+        width:100%;
+        flex-wrap: wrap;
+        border-bottom: gray 2px solid;
+    }
+
+    .cartShoppingListLeft{
+        width:80%;
+        order:1;
+    }
+
+    .cartItemNumber{
+        display:flex;
+        flex-direction: column;
+        order:3;
+        margin-top: 1rem;
+    }
+
+    .cartItemSinglePrice{
+        display:flex;
+        flex-direction: column;
+        order:4;
+        margin-top: 1rem;
+    }
+
+    .cartItemTotalPrice{
+        display:flex;
+        flex-direction: column;
+        order:5;
+        margin-top: 1rem;
+    }
+
+    .cartItemDelete{
+        width:10%;
+        order:2;
+    }
+
+    .CartItemCarNumMobile{
+        display:flex;
+    }
+    
+    .CartItemCarSiglePriceMobile{
+        display:flex;
+    }
+    
+    .CartItemCarTotalPriceMobile{
+        display:flex;
+    }
+
+    #sendAndBillInfo{
+        flex-wrap: wrap;
+        height:10rem;
+    }
+
+    #sendCountry{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #sendCountryTitle{
+        width:100%;
+    }
+
+    #sendCountryValue{
+        width:100%;
+    }
+
+    #sendCountryValueDiv{
+        width:100%;
+    }
+
+    #billMethod{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    #billMethodTitle{
+        width:100%;
+    }
+
+    #billMethodValue{
+        width:100%;
+    }
+
+    #billMethodValueDiv{
+        width:100%;
+    }
+
+    /*  */
+    #orderPersonInfoName{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    
+    #orderPersonInfoNameValue{
+        width:100%;
+        height:1.5rem;
+    }
+    
+    #orderPersonInfoNameWarning{
+        display: flex;
+        justify-content: flex-end;
+        color:orange;
+        width:100%;
+    }
+    
+    #orderPersonInfoPhone{
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    
+    
+    #orderPersonInfoPhoneValue{
+        width: 100%;
+        height:1.5rem;
+    }
+    
+    #orderPersonInfoAddress{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    
+    #orderPersonInfoAddressValue{
+        width:100%;
+        height:1.5rem;
+    }
+    #deliveryTime{
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+
+    #deliveryTimeTitle{
+        width:100%;
+    }
+
+    #orderResultPanel{
+        width:100%;
+    }
+}

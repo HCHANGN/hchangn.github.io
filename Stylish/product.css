@@ -1,0 +1,250 @@
+.menu a{
+    text-decoration: none;
+}
+
+#headerAnkor img{
+    width:100%;
+}
+button{
+    background-color: black;
+    color:white;
+    border:0;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#mainDetailContent{
+    max-width: 1500px;
+    width:60%;
+    margin:auto;
+}
+
+#firstRow{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+#mainPicture{
+    width:50%;
+    height:auto;
+}
+
+#mainControl{
+    width:45%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionDetailImg{
+    width:40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#productDetailName{
+    color:#3f3a3a;
+}
+
+#productDetailId{
+    color:#3f3a3a;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#productDetailPrice{
+    color:#3f3a3a;
+    border-bottom: dimgray 1px solid;
+    margin-bottom: 5%;
+}
+
+.detailColorItem{
+    height:1.5rem;
+    width:1.5rem;
+    margin-left: 1rem;
+    border: white 3px solid;
+    outline:  darkgray 0.2px solid;
+}
+
+#productDetailColor{
+    color:#3f3a3a;
+    display:flex;
+    height: 10%;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+#productDetailSize{
+    color:#3f3a3a;
+    display:flex;
+    height: 10%;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.detailSizeItem{
+    display:flex;
+    height:1.9rem;
+    width:1.9rem;
+    margin-left: 1rem;
+    background-color: darkgray;
+    border: darkgray 0.2px solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#productDetailInStock{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:10%;
+    margin-bottom: 1rem;
+}
+
+#productDetailInStock span{
+    margin-right: 10%;
+}
+
+#productDetailNum{
+    color:#3f3a3a;
+    display:flex;
+    flex-wrap: wrap;
+    height:2.5rem;
+}
+#productDetailNumInput{
+    display:flex;
+    width:100%;
+    height:100%;
+    border:grey 1px solid;
+    justify-content: space-between;
+    align-items: center;
+}
+#productDetailNumInput div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+}
+#productDetailNumInput input{
+    width:20%;
+    height:80%;
+    border:0;
+    font-size: 1rem;
+    text-align: center;
+    color:#8b572a;
+}
+
+#increaseBtn, #decreaseBtn{
+    user-select: none;
+    cursor: pointer;
+}
+
+#productDetailNumInput input::-webkit-outer-spin-button,
+#productDetailNumInput input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#addToCartBtn{
+    cursor: pointer;
+}
+
+#sideIntro{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:30%;
+}
+
+#productDetailSection{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#productDetailSection p{
+    width:100%;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+#productDetailSection img{
+    width:100%;
+}
+
+#sectionTitle{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sectionTitle p{
+    width:20%;
+    color:#8b572a;
+}
+#sectionTitle hr{
+    width:70%;
+}
+
+@media (max-width:1000px){
+    #mainDetailContent{
+        width:90%;
+    }
+}
+
+
+
+@media (max-width:660px){
+    #headerAnkor{
+        width:60%;
+    }
+    
+    #mainDetailContent{
+        width:100%;
+        margin:0;   
+    }
+    #firstRow{
+        width:100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #mainPicture{
+        width:100%;
+    }
+    #mainControl{
+        margin-top: 5%;
+        width:90%;
+    }
+    #firstRow{
+        margin-top: 0;
+    }
+
+    #productDetailSection{
+        width:90%;
+        margin:auto;
+    }
+    #productDetailColor{
+        margin-bottom: 3%;
+    }
+    #productDetailSize{
+        margin-bottom: 3%;
+    }
+    #productDetailInStock{
+        margin-bottom: 3%;
+    }
+    #productDetailNum{
+        height:3rem;
+    }
+
+    #productDetailNumInput{
+        margin:0;
+        width:100%;
+        height: 100%;
+    }
+}
