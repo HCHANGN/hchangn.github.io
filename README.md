@@ -27,7 +27,6 @@ Website Link: https://hchangn.github.io/
 * Click product picture to see detail of product. 
   
 ![HomePage](https://github.com/HCHANGN/hchangn.github.io/blob/master/ReadmeIMG1.png "HomePage")
-![HomePage](https://github.com/HCHANGN/SearchingPathProject/blob/master/Readme1.gif "HomePage")
   
 ## Product Detail Page
   
