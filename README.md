@@ -26,6 +26,7 @@ Website Link: https://hchangn.github.io/
 * Search Bar, cart icon and member icon at top.
 * Click product picture to see detail of product. 
   
+![HomePage](https://github.com/HCHANGN/hchangn.github.io/blob/master/ReadmeIMG1.png "HomePage")
 ![HomePage](https://github.com/HCHANGN/SearchingPathProject/blob/master/Readme1.gif "HomePage")
   
 ## Product Detail Page
@@ -35,9 +36,28 @@ Website Link: https://hchangn.github.io/
 * Click + - button to add or remove item.
 * Add to cart button will move selected item to cart and can be check by clicking top cart icon. 
   
-![GraphPage](https://github.com/HCHANGN/SearchingPathProject/blob/master/Readme3.gif "GraphPage")
+![DetailPage](https://github.com/HCHANGN/hchangn.github.io/blob/master/ReadmeIMG2.png "DetailPage")
 
 ## Payment Page
+  
+* Click the cart icon at top right to go to payment page.
+* Payment page shows the detail of what you puchase.
+* You can add or delete item in cart.
+  
+![PaymentPage](https://github.com/HCHANGN/hchangn.github.io/blob/master/ReadmeIMG3.png "PaymentPage")
+  
+* There is a dummy credit card for purchase test shown below.
+* Click "確認付款" button to purchase.
+  
+![PaymentPage](https://github.com/HCHANGN/hchangn.github.io/blob/master/ReadmeIMG4.png "PaymentPage")
+
+
+## Thank You Page
+
+* After purchase finished it will redirect to thank you page.
+* After Count down it will redirect back to home page.
+
+![PaymentPage](https://github.com/HCHANGN/hchangn.github.io/blob/master/ReadmeIMG5.png "PaymentPage")
 
 # Contact Author
   
