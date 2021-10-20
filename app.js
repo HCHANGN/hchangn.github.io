@@ -16,7 +16,7 @@ function ajax(src,callback){
             else{
                 url = src;
             }
-            console.log(src+"  "+next);
+            // console.log(src+"  "+next);
             callback(data);
             isLoading=false;
         }
@@ -194,7 +194,7 @@ function campaignsImage(data){
     let loadCounter=0;
     for(let i=0;i<data.data.length;i++){
         image.push(new Image());
-        image[i].src="https://api.appworks-school.tw"+data.data[i].picture;
+        image[i].src=data.data[i].picture;
         campaignsText[i]=data.data[i].story;
         //check if image had loaded
         image[i].addEventListener("load",()=>{
